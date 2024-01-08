@@ -80,7 +80,7 @@ if (backgroundLocalItem !== null && savedImgLocalItem !== null) {
   } else {
     backgroundOption = false;
     clearInterval(backgroundInterval);
-    landPg.style.backgroundImage = 'url("/imgs/' + savedImgLocalItem + '")';
+    landPg.style.backgroundImage = 'url("imgs/' + savedImgLocalItem + '")';
     document.querySelector(".random-background .no").classList.add("active");
   }
 }
